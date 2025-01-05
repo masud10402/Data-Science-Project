@@ -5,5 +5,7 @@ This project focuses on comparing the performance of various deep neural network
 ### Dataset
 The German Traffic Sign Recognition Benchmark (GTSRB) dataset is a widely used dataset in the field of traffic sign recognition and computer vision. It contains over 50,000 images of traffic signs belonging to 43 distinct classes, captured under varying real-world conditions such as different lighting, weather, occlusions, and angles. Due to its diverse and challenging nature, the GTSRB dataset is often used to benchmark and compare the performance of deep learning models in recognizing and classifying traffic signs, which is a critical task for autonomous driving systems and advanced driver assistance systems.
 
-![image]([class dgistribution.pn](https://drive.google.com/file/d/1B_COFvlk8cxznRpoIypwb7Rp6uTxJsp1/view?usp=drive_link))
+![class distribution](https://github.com/user-attachments/assets/afa1c2f2-5157-47c2-ae49-909dc68911bd)
+
+
 
