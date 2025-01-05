@@ -48,7 +48,27 @@ The same top layers were employed for the pre-trained models.
 </ul>
 
 ### Find optimal model:
-<b>Fine Tuning: </b> Different layer combinations of the pre-trained models were experimented to find the best model combination for GTSRB dataset.<br>
-<b>Hyper-parameter Tuning: </b> Different learning rates and Batch sizes were experimented to find the optimal values.<br>
+<ul>
+<li><b>Fine Tuning: </b> Different layer combinations of the pre-trained models were experimented to find the best model combination for GTSRB dataset.</li>
+<li><b>Hyper-parameter Tuning: </b> Different learning rates and Batch sizes were experimented to find the optimal learning rate and batch size combination.</li>
+</ul>
 
+### Training Process:
+<ul>
+<li><b>Optimizer:</b> Adam</li>
+<li><b>Loss function:</b> categorical cross-entropy for
+multi-class classification).</li>
+<li>Early Stopping to prevent overfitting</li>
+<li><b>Evaluation Metrics:</b> accuracy / f1-score</li>
+</ul>
+
+### Best Model:
+<ul>
+<li>VGG16</li>
+<li>Accuracy: <b>99.06%</b></li>
+</ul>
+
+### Files Details:
+The files numbering from 1 to 4 are the experimented files where fine-tuning and hyperparameter tuning were applied to figure out the optimal model for the GTSRB dataset.
+All the best models were trained for more epochs in the file numbering 5 with name "Final_Code_all_best_models_training.ipynb" where the actual accuracies are stored.
 
