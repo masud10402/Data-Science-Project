@@ -26,7 +26,7 @@ The German Traffic Sign Recognition Benchmark (GTSRB) dataset is a widely used d
 
 <ul>
 <li><b>Resizing Images:</b> All the images were resized to 32*32*3 pixels.</li>
-<li><b>Normalization:</b> Pixel values were scaled to [0. 1]</li>
+<li><b>Normalization:</b> Pixel values were scaled to [0, 1]</li>
 <li><b>Dataset Splitting:</b> 80% of the dataset was used for training, and the rest 20% was used for validation.</li>
 </ul>
 
